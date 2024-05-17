@@ -1,6 +1,6 @@
-@media (max-width: 1740px) {
+@media (max-width: 1740px) and (min-width: 1150px) {
     .section-top-main {   
-        background-size: contain;
-        
+        background-size: cover;
+        background-position: right;
     }
 }

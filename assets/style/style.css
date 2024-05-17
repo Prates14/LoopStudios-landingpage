@@ -12,6 +12,11 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
+    color: var(--White);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,13 +45,15 @@ p {
     justify-content: space-between;
     width: 75%;
     height: 5%;
-    margin-top: 100px;
+    margin-top: 6%;
 }
 
+/* logo-marca */
 .section-top-main .nav-bar .logo, .section-top-main .nav-bar .logo img {
     height: 100%;
 }
 
+/* barra de navegacao */
 .section-top-main .nav-bar .sections {
     display: flex;
     gap: 50px;
@@ -64,5 +71,22 @@ p {
     padding-bottom: 10px;
     border-bottom: white 2px solid;
 }
+
+/* titulo na secao inicial */
+.title {
+    width: 75%;
+    height: auto;
+}
+
+.title h1 {
+    border: 2px solid white;
+    font-size: 95px;
+    width: 860px;
+    margin-top: 165px;
+    padding: 40px;
+    text-transform: uppercase;
+}
+
+
 /* Mobile: 375px
 - Desktop: 1440px */
