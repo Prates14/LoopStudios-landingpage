@@ -1,0 +1,68 @@
+:root {
+    /* cores primarias */
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --Dark-Gray: hsl(0, 0%, 55%);
+    --Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
+/* estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+}
+
+/* estilos secao topo da pagina */
+.section-top-main {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)100%), url(../images/desktop/image-hero.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+
+.section-top-main .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    height: 5%;
+    margin-top: 100px;
+}
+
+.section-top-main .nav-bar .logo, .section-top-main .nav-bar .logo img {
+    height: 100%;
+}
+
+.section-top-main .nav-bar .sections {
+    display: flex;
+    gap: 50px;
+    position: fixed;
+    right: 13%;
+}
+
+.section-top-main .nav-bar .sections p a {
+    color: var(--White);
+    text-decoration: none;
+}
+
+.section-top-main .nav-bar .sections p a:hover {
+    transition: all 300ms ease-in-out;
+    padding-bottom: 10px;
+    border-bottom: white 2px solid;
+}
+/* Mobile: 375px
+- Desktop: 1440px */
