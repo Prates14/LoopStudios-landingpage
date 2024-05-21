@@ -95,10 +95,9 @@ p {
 
 .section-about-main .content-about {
     width: 75%;
-    display: flex;
-    align-items: center;
 }
 
+/* imagem */
 .section-about-main .content-about figure {
     width: 70%;
 }
@@ -107,17 +106,18 @@ p {
     width: 100%;
 }
 
+/* texto */
 .section-about-main .content-about .info-about {
-    background-color: white;
+    display: flex;
+    flex-direction: column;
     z-index: 1;
-    width: 41%;
     position: absolute;
     top: 125%;
     right: 5%;
-    padding: 100px 100px 100px 130px;
-    display: flex;
-    flex-direction: column;
+    width: 41%;
     gap: 45px;
+    padding: 100px 100px 100px 130px;
+    background-color: white;
     
 }
 
@@ -131,6 +131,40 @@ p {
     color: var(--Dark-Gray);
     font-size: 19px;
     line-height: 30px;
+}
+
+/* Seção grade de imagens */
+.section-grid-images {
+    flex-direction: column;
+}
+
+.section-grid-images .content-grid {
+    width: 75%;
+}
+
+.section-grid-images .our-creations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.section-grid-images .our-creations button {
+    color: var(--Black);
+    text-transform: uppercase;
+    border: 2px solid var(--Very-Dark-Gray);
+    background-color: var(--White);
+    padding: 13px 55px;
+    font-size: 19px;
+    font-family: "Alata", sans-serif;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.section-grid-images .our-creations h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: var(--Black);
 }
 
 /* Mobile: 375px
