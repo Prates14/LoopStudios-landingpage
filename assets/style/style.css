@@ -4,6 +4,16 @@
     --Black: hsl(0, 0%, 0%);
     --Dark-Gray: hsl(0, 0%, 55%);
     --Very-Dark-Gray: hsl(0, 0%, 41%);
+
+    /* Imagens da seção 'Our creations'*/
+    --fig-de: url(../images/desktop/image-deep-earth.jpg);
+    --fig-na: url(../images/desktop/image-night-arcade.jpg);
+    --fig-st: url(../images/desktop/image-soccer-team.jpg);
+    --fig-tg: url(../images/desktop/image-grid.jpg);
+    --fig-fa: url(../images/desktop/image-from-above.jpg);
+    --fig-pb: url(../images/desktop/image-pocket-borealis.jpg);
+    --fig-tc: url(../images/desktop/image-curiosity.jpg);
+    --fig-mf: url(../images/desktop/image-fisheye.jpg);
 }
 
 /* estilos gerais */
@@ -142,6 +152,7 @@ p {
     width: 75%;
 }
 
+/* Título e botão da seção */
 .section-grid-images .our-creations {
     display: flex;
     align-items: center;
@@ -161,10 +172,82 @@ p {
     cursor: pointer;
 }
 
+.section-grid-images .our-creations button:hover {
+    color: var(--White);
+    background-color: var(--Black);
+    transition: all ease-in 300ms;
+}
+
 .section-grid-images .our-creations h2 {
     font-size: 60px;
     text-transform: uppercase;
     color: var(--Black);
+}
+
+/* Imagens da seção grid */
+.section-grid-images .grid-imgs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr;
+    grid-template-rows: auto auto;
+    margin-top: 100px;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+
+/* backgrounds */
+.section-grid-images .grid-imgs .fig-de {
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-de) no-repeat;
+    background-size: cover;
+}
+.section-grid-images .grid-imgs .fig-na {
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-na) no-repeat;
+    background-size: cover;
+}
+.section-grid-images .grid-imgs .fig-st {
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-st) no-repeat;
+    background-size: cover;
+}
+.section-grid-images .grid-imgs .fig-tg {
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-tg) no-repeat;
+    background-size: cover;
+}
+.section-grid-images .grid-imgs .fig-fa {
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-fa) no-repeat;
+    background-size: cover;
+}
+.section-grid-images .grid-imgs .fig-pb {
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-pb) no-repeat;
+    background-size: cover;
+}
+.section-grid-images .grid-imgs .fig-tc {
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-tc) no-repeat;
+    background-size: cover;
+}
+.section-grid-images .grid-imgs .fig-mf {
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-mf) no-repeat;
+    background-size: cover;
+}
+
+/* tamanho de cada imagem */
+.section-grid-images .grid-imgs .figures {
+    width: 300px;
+    height: 527px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.section-grid-images .grid-imgs .figures:hover {
+    color: var(--Black);
+}
+
+/* subtitulo das imagens */
+.section-grid-images .grid-imgs .figures h3 {
+    font-size: 35px;
+    text-align: left;
+    padding: 0 65px 20px 20px;
+    color: inherit;
 }
 
 /* Mobile: 375px
