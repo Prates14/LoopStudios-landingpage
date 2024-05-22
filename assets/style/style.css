@@ -29,7 +29,12 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
 }
@@ -47,7 +52,7 @@ p {
 
 /* estilos secao topo da pagina */
 .section-top-main {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)100%), url(../images/desktop/image-hero.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)100%), url(../images/desktop/image-hero.jpg) no-repeat;
     background-size: cover;
     flex-direction: column;
 }
@@ -62,7 +67,8 @@ p {
 }
 
 /* logo-marca */
-.section-top-main .nav-bar .logo, .section-top-main .nav-bar .logo img {
+.section-top-main .nav-bar .logo,
+.section-top-main .nav-bar .logo img {
     height: 100%;
 }
 
@@ -90,12 +96,12 @@ p {
 }
 
 .title h1 {
-    border: 2px solid white;
+    text-transform: uppercase;
     font-size: 95px;
+    border: 2px solid white;
     width: 860px;
     margin-top: 165px;
     padding: 40px;
-    text-transform: uppercase;
 }
 
 /* secao sobre */
@@ -118,17 +124,17 @@ p {
 
 /* texto */
 .section-about-main .content-about .info-about {
+    background-color: white;
     display: flex;
     flex-direction: column;
-    z-index: 1;
     position: absolute;
     top: 125%;
     right: 5%;
     width: 41%;
     gap: 45px;
     padding: 100px 100px 100px 130px;
-    background-color: white;
-    
+    z-index: 1;
+
 }
 
 .section-about-main .content-about .info-about h2 {
@@ -161,14 +167,14 @@ p {
 }
 
 .section-grid-images .our-creations button {
-    color: var(--Black);
-    text-transform: uppercase;
-    border: 2px solid var(--Very-Dark-Gray);
-    background-color: var(--White);
-    padding: 13px 55px;
-    font-size: 19px;
     font-family: "Alata", sans-serif;
+    text-transform: uppercase;
+    color: var(--Black);
+    background-color: var(--White);
+    border: 2px solid var(--Very-Dark-Gray);
+    font-size: 19px;
     letter-spacing: 5px;
+    padding: 13px 55px;
     cursor: pointer;
 }
 
@@ -186,56 +192,81 @@ p {
 
 /* Imagens da seção grid */
 .section-grid-images .grid-imgs {
-    width: 100%;
     display: grid;
+    justify-content: space-between;
     grid-template-columns: 0fr 0fr 0fr 0fr;
     grid-template-rows: auto auto;
-    margin-top: 100px;
-    justify-content: space-between;
+    width: 100%;
     row-gap: 50px;
+    margin-top: 100px;
 }
 
 /* backgrounds */
 .section-grid-images .grid-imgs .fig-de {
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-de) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-de) no-repeat;
     background-size: cover;
 }
+
 .section-grid-images .grid-imgs .fig-na {
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-na) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-na) no-repeat;
     background-size: cover;
 }
+
 .section-grid-images .grid-imgs .fig-st {
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-st) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-st) no-repeat;
     background-size: cover;
 }
+
 .section-grid-images .grid-imgs .fig-tg {
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-tg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-tg) no-repeat;
     background-size: cover;
 }
+
 .section-grid-images .grid-imgs .fig-fa {
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-fa) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-fa) no-repeat;
     background-size: cover;
 }
+
 .section-grid-images .grid-imgs .fig-pb {
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-pb) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-pb) no-repeat;
     background-size: cover;
 }
+
 .section-grid-images .grid-imgs .fig-tc {
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-tc) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-tc) no-repeat;
     background-size: cover;
 }
+
 .section-grid-images .grid-imgs .fig-mf {
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)100%), var(--fig-mf) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-mf) no-repeat;
     background-size: cover;
 }
 
 /* tamanho de cada imagem */
 .section-grid-images .grid-imgs .figures {
-    width: 300px;
-    height: 527px;
+    position: relative;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
+    width: 300px;
+    height: 527px;
+}
+
+.section-grid-images .grid-imgs .figures::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0;
+    z-index: 0;
+}
+
+.section-grid-images .grid-imgs .figures:hover::before {
+    transition: all 300ms ease;
+    opacity: 0.5;
 }
 
 .section-grid-images .grid-imgs .figures:hover {
@@ -244,10 +275,11 @@ p {
 
 /* subtitulo das imagens */
 .section-grid-images .grid-imgs .figures h3 {
-    font-size: 35px;
-    text-align: left;
-    padding: 0 65px 20px 20px;
     color: inherit;
+    text-align: left;
+    font-size: 35px;
+    padding: 0 65px 20px 20px;
+    z-index: 1;
 }
 
 /* Mobile: 375px
