@@ -42,7 +42,7 @@
     }
 
     .section-about-main .limit-vw figure {
-        width: 60%;
+        width: 70%;
     }
 
     /* Troca de <img> - (mobile) - */
@@ -70,4 +70,33 @@
     }
 }
 
-@media (max-width: 1460px) {}
+@media (max-width: 1460px) {
+    .limit-vw h1 {
+        width: 80%;
+    }
+
+    .section-about-main .limit-vw .info-about {
+        padding: 55px 55px 30px 55px;
+        right: 9%;
+    }
+
+    .section-grid-images .grid-imgs .figures {
+        width: 270px;
+        height: 490px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .limit-vw h1 {
+        width: 80%;
+    }
+
+    .section-about-main .limit-vw .info-about {
+        padding: 55px 55px 30px 55px;
+    }
+
+    .section-grid-images .grid-imgs .figures {
+        width: 235px;
+        height: 440px;
+    }
+}
