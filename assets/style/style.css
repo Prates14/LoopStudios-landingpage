@@ -116,6 +116,7 @@ p {
 .section-about-main .limit-vw figure img {
     width: 100%;
 }
+
 /* Troca de <img> - (mobile = last-child) - */
 .section-about-main .limit-vw figure img:last-child {
     display: none;

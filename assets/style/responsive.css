@@ -56,20 +56,18 @@
     }
 
     .section-about-main .limit-vw .info-about {
-        right: 12%;
         top: 130%;
+        right: 12%;
         width: 40%;
     }
 
-    .section-about-main .limit-vw .info-about h2 {      
+    .section-about-main .limit-vw .info-about h2 {
         font-size: 45px;
     }
-    
+
     .section-about-main .limit-vw .info-about p {
         font-size: 15px;
     }
 }
 
-@media (max-width: 1460px) {
-    
-}
+@media (max-width: 1460px) {}
