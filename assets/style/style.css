@@ -81,6 +81,15 @@ p {
     gap: 50px;
 }
 
+/* menu-hamburguer */
+.section-top-main .nav-bar span {
+    display: none;
+    position: fixed;
+    right: 15%;
+    box-shadow: inset 0px 0px 0px 10px black;
+    z-index: 2;
+}
+
 /* estilos navegação - (topo e rodapé) - */
 .nav-bar .sections p a {
     color: var(--White);

@@ -96,3 +96,44 @@
         height: 440px;
     }
 }
+
+@media (max-width: 1200px) {
+
+    /* nova estilização da barra de navegação */
+    .section-top-main .nav-bar .sections {
+        background-color: black;
+        z-index: 2;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        gap: 50px;
+        padding-left: 17%;
+    }
+
+    /* menu-hamburguer */
+    .section-top-main .nav-bar span {
+        display: block;
+    }
+
+    .section-top-main .nav-bar .sections p a {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+    .section-top-main .nav-bar .logo {
+        z-index: 3;
+        /* position: fixed; */
+        height: 39px;
+    }
+
+    .limit-vw h1 {
+        width: 100%;
+    }
+}
