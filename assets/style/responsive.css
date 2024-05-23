@@ -1,6 +1,75 @@
+@media (max-width: 1755px) {
+    .limit-vw h1 {
+        font-size: 85px;
+    }
+
+    .section-about-main .limit-vw .info-about {
+        width: 45%;
+        gap: 40px;
+        padding: 95px 95px 30px 95px;
+    }
+}
+
 @media (max-width: 1740px) and (min-width: 1150px) {
-    .section-top-main {   
+    .section-top-main {
         background-size: cover;
         background-position: right;
     }
+}
+
+@media (max-width: 1655px) {
+    .limit-vw {
+        width: 65%;
+    }
+
+    .limit-vw h1 {
+        font-size: 75px;
+    }
+
+    .section-about-main .limit-vw .info-about {
+        width: 45%;
+        padding: 75px 75px 30px 75px;
+    }
+
+    .section-grid-images .grid-imgs {
+        grid-template-columns: 0fr 0fr 0fr;
+    }
+}
+
+@media (max-width: 1580px) {
+    .limit-vw h1 {
+        width: 65%;
+    }
+
+    .section-about-main .limit-vw figure {
+        width: 60%;
+    }
+
+    /* Troca de <img> - (mobile) - */
+    .section-about-main .limit-vw figure img:last-child {
+        display: block;
+    }
+
+    /* Troca de <img> - (desktop) - */
+    .section-about-main .limit-vw figure img:first-child {
+        display: none;
+    }
+
+    .section-about-main .limit-vw .info-about {
+        right: 12%;
+        top: 130%;
+        width: 40%;
+    }
+
+    .section-about-main .limit-vw .info-about h2 {      
+        font-size: 45px;
+    }
+    
+    .section-about-main .limit-vw .info-about p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1460px) {
+    
 }
