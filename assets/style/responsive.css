@@ -31,6 +31,10 @@
         padding: 75px 75px 30px 75px;
     }
 
+    .section-grid-images .limit-vw .see-all {
+        top: 4.5%;
+    }
+
     .section-grid-images .grid-imgs {
         grid-template-columns: 0fr 0fr 0fr;
     }
@@ -153,5 +157,71 @@
     }
 }
 
-@media (max-width: 1149px) {}
-/* max-width: 1149px imagem do topo, grid, footer*/
+@media (max-width: 1149px) {
+    .section-top-main {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)100%), url(../images/mobile/image-hero.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .section-grid-images .our-creations {
+        justify-content: center;
+    }
+
+    .section-grid-images .limit-vw .see-all {
+        position: static;
+        margin-bottom: 50px;
+    }
+
+    .section-grid-images .grid-imgs {
+        grid-template-columns: 1fr;
+    }
+
+    .section-grid-images .grid-imgs .figures {
+        width: 100%;
+        max-height: 240px;
+    }
+
+    /* backgrounds da seção grid mobile*/
+    .section-grid-images .grid-imgs .fig-de {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-de-mb) no-repeat;
+        background-size: cover;
+    }
+
+    .section-grid-images .grid-imgs .fig-na {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-na-mb) no-repeat;
+        background-size: cover;
+    }
+
+    .section-grid-images .grid-imgs .fig-st {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-st-mb) no-repeat;
+        background-size: cover;
+    }
+
+    .section-grid-images .grid-imgs .fig-tg {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-tg-mb) no-repeat;
+        background-size: cover;
+    }
+
+    .section-grid-images .grid-imgs .fig-fa {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-fa-mb) no-repeat;
+        background-size: cover;
+    }
+
+    .section-grid-images .grid-imgs .fig-pb {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-pb-mb) no-repeat;
+        background-size: cover;
+    }
+
+    .section-grid-images .grid-imgs .fig-tc {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-tc-mb) no-repeat;
+        background-size: cover;
+    }
+
+    .section-grid-images .grid-imgs .fig-mf {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)100%), var(--fig-mf-mb) no-repeat;
+        background-size: cover;
+    }
+
+}
+
+/*footer*/

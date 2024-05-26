@@ -5,7 +5,7 @@
     --Dark-Gray: hsl(0, 0%, 55%);
     --Very-Dark-Gray: hsl(0, 0%, 41%);
 
-    /* Imagens da seção grid - (Our creations) - */
+    /* Imagens da seção grid - (desktop) - */
     --fig-de: url(../images/desktop/image-deep-earth.jpg);
     --fig-na: url(../images/desktop/image-night-arcade.jpg);
     --fig-st: url(../images/desktop/image-soccer-team.jpg);
@@ -14,6 +14,15 @@
     --fig-pb: url(../images/desktop/image-pocket-borealis.jpg);
     --fig-tc: url(../images/desktop/image-curiosity.jpg);
     --fig-mf: url(../images/desktop/image-fisheye.jpg);
+    /* Imagens da seção grid - (mobile) - */
+    --fig-de-mb: url(../images/mobile/image-deep-earth.jpg);
+    --fig-na-mb: url(../images/mobile/image-night-arcade.jpg);
+    --fig-st-mb: url(../images/mobile/image-soccer-team.jpg);
+    --fig-tg-mb: url(../images/mobile/image-grid.jpg);
+    --fig-fa-mb: url(../images/mobile/image-from-above.jpg);
+    --fig-pb-mb: url(../images/mobile/image-pocket-borealis.jpg);
+    --fig-tc-mb: url(../images/mobile/image-curiosity.jpg);
+    --fig-mf-mb: url(../images/mobile/image-fisheye.jpg);
 }
 
 /* estilos gerais */
@@ -165,6 +174,10 @@ p {
     min-height: 170vh;
 }
 
+.section-grid-images .limit-vw {
+    position: relative;
+}
+
 /* Título e botão da seção */
 .section-grid-images .our-creations {
     display: flex;
@@ -173,9 +186,16 @@ p {
     margin-top: 10%;
 }
 
-.section-grid-images .our-creations button {
+.section-grid-images .limit-vw .see-all {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 9%;
+    right: 0;
+}
+
+.section-grid-images .limit-vw .see-all button {
     font-family: "Alata", sans-serif;
-    text-transform: uppercase;
     color: var(--Black);
     background-color: var(--White);
     border: 2px solid var(--Very-Dark-Gray);
@@ -185,7 +205,7 @@ p {
     cursor: pointer;
 }
 
-.section-grid-images .our-creations button:hover {
+.section-grid-images .limit-vw .see-all button:hover {
     color: var(--White);
     background-color: var(--Black);
     transition: all ease-in 300ms;
