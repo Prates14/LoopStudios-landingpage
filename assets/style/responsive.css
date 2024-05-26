@@ -158,6 +158,10 @@
 }
 
 @media (max-width: 1149px) {
+    .limit-vw {
+        width: 75%;
+    }
+
     .section-top-main {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)100%), url(../images/mobile/image-hero.jpg) no-repeat;
         background-size: cover;
@@ -232,3 +236,5 @@
         margin-top: 50px;
     }
 }
+
+/* max-width: 770px */
