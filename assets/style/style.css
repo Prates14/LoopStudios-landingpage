@@ -324,14 +324,14 @@ p {
 }
 
 /* navegação do rodapé */
-.footer-content .size-limit .icons {
-    align-items: end;
-}
-
 .footer-content .size-limit .nav-bar {
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+.footer-content .size-limit .icons {
+    align-items: end;
 }
 
 .footer-content .size-limit .nav-bar .sections {

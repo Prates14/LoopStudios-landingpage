@@ -222,6 +222,13 @@
         background-size: cover;
     }
 
-}
+    .footer-content .size-limit, .footer-content .size-limit .nav-bar, .footer-content .size-limit .nav-bar .sections {
+        flex-direction: column;
+        align-items: center;
+    }
 
-/*footer*/
+    .footer-content .size-limit .icons .sections {
+        flex-direction: row;
+        margin-top: 50px;
+    }
+}
