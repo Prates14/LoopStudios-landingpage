@@ -10,7 +10,7 @@ Criação de um website (Landing Page) de apresentação simples de uma empresa 
 > - Responsividade
 
 ### site
-[loopstudios-landing-page-main](https://prates14.github.io/formulario-interativo-cartao/)
+[loopstudios-landing-page-main](https://prates14.github.io/LoopStudios-landingpage/)
 
 ## História Resumo 👨‍💻
 Após ficar um certo tempo focado em estudos teóricos na área de **Ciência da Computação**, precisava voltar a praticar na criação de projetos para não "enferrujar". Então pensei em fazer projetos básicos e evoluir a partir deles, criando assim, websites cada vez mais avançados e complexos. No caso deste projeto, senti que ainda precisava reforçar meus conhecimentos frontend e entender de forma mais profunda o uso das linguagens, então decidi criá-lo usando HTML, CSS e JS "na mão", ao invés de buscar soluções mais simples como o uso de frameworks.
